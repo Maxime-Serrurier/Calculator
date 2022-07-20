@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.button {
+    @apply bg-white p-4 rounded hover:opacity-75 transition duration-300 active:transform active:scale-95;
+}
+
+.operator {
+    @apply bg-orange-500 rounded text-white font-light hover:opacity-75 transition duration-300 active:transform active:scale-95;
+}

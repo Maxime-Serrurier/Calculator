@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link rel="stylesheet" href="default.css" />
+        <title>Calculatrice</title>
+    </head>
+    <body>
+        <div
+            class="flex h-screen justify-center items-center font-['Orbitron'] bg-gradient-to-t from-blue-300 to-blue-900"
+        >
+            <div
+                id="calculator"
+                class="bg-black w-[350px] p-3 mx-auto rounded"
+            >
+                <div
+                    id="screen"
+                    class="bg-blue-100 w-80 h-32 p-4 mx-auto rounded flex justify-end items-end text-4xl font-semibold"
+                ></div>
+                <div
+                    id="keys"
+                    class="grid grid-cols-4 grid-rows-5 gap-2 w-80 mx-auto mt-2 text-xl"
+                >
+                    <button value="C" class="operator" id="button">
+                        C
+                    </button>
+                    <button value="(" id="button" class="operator">
+                        (
+                    </button>
+                    <button value=")" id="button" class="operator">
+                        )
+                    </button>
+                    <button value="/" id="button" class="operator">
+                        /
+                    </button>
+                    <button value="7" id="button" class="button">
+                        7
+                    </button>
+                    <button value="8" id="button" class="button">
+                        8
+                    </button>
+                    <button value="9" id="button" class="button">
+                        9
+                    </button>
+                    <button value="*" id="button" class="operator">
+                        *
+                    </button>
+                    <button value="4" id="button" class="button">
+                        4
+                    </button>
+                    <button value="5" id="button" class="button">
+                        5
+                    </button>
+                    <button value="6" id="button" class="button">
+                        6
+                    </button>
+                    <button value="-" id="button" class="operator">
+                        -
+                    </button>
+                    <button value="1" id="button" class="button">
+                        1
+                    </button>
+                    <button value="2" id="button" class="button">
+                        2
+                    </button>
+                    <button value="3" id="button" class="button">
+                        3
+                    </button>
+                    <button value="+" id="button" class="operator">
+                        +
+                    </button>
+                    <button
+                        value=""
+                        id="button"
+                        class="cursor-context-menu"
+                    ></button>
+                    <button value="0" id="button" class="button">
+                        0
+                    </button>
+                    <button
+                        value="="
+                        id="button"
+                        class="bg-green-500 p-4 rounded col-span-2 text-white font-bold hover:opacity-75 transition duration-300 active:transform active:scale-95"
+                    >
+                        =
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="../index.js"></script>
+    </body>
+</html>
